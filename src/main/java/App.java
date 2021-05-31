@@ -1,7 +1,9 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
         boolean theAppIsRunning = true;
         while (theAppIsRunning) {
             // user to pick option
@@ -53,4 +55,3 @@ public class App {
         }
     }
 }
-
